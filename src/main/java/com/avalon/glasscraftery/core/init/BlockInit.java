@@ -1,9 +1,10 @@
 package com.avalon.glasscraftery.core.init;
 
 import com.avalon.glasscraftery.GlassCraftery;
-
+import com.avalon.glasscraftery.common.blocks.CustomBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.ChainBlock;
 import net.minecraft.block.GlassBlock;
 import net.minecraft.block.LanternBlock;
@@ -11,6 +12,7 @@ import net.minecraft.block.PaneBlock;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.material.MaterialColor;
+import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -50,44 +52,5 @@ public class BlockInit {
 			.register("soul_glass_pane",
 					() -> new  PaneBlock(AbstractBlock.Properties.create(Material.GLASS).hardnessAndResistance(0.3F).sound(SoundType.GLASS).notSolid()));
 
-	//Windows
-	
-	public static final RegistryObject<Block> OAK_WINDOW = BLOCKS
-			.register("oak_window",
-					() -> new GlassBlock(AbstractBlock.Properties.create(Material.GLASS).hardnessAndResistance(0.3F).sound(SoundType.GLASS).notSolid()));
-	public static final RegistryObject<Block> SPRUCE_WINDOW = BLOCKS
-			.register("spruce_window",
-					() -> new GlassBlock(AbstractBlock.Properties.create(Material.GLASS).hardnessAndResistance(0.3F).sound(SoundType.GLASS).notSolid()));
-	public static final RegistryObject<Block> BIRCH_WINDOW = BLOCKS
-			.register("birch_window",
-					() -> new GlassBlock(AbstractBlock.Properties.create(Material.GLASS).hardnessAndResistance(0.3F).sound(SoundType.GLASS).notSolid()));
-	public static final RegistryObject<Block> JUNGLE_WINDOW = BLOCKS
-			.register("jungle_window",
-					() -> new GlassBlock(AbstractBlock.Properties.create(Material.GLASS).hardnessAndResistance(0.3F).sound(SoundType.GLASS).notSolid()));
-	public static final RegistryObject<Block> ACACIA_WINDOW = BLOCKS
-			.register("acacia_window",
-					() -> new GlassBlock(AbstractBlock.Properties.create(Material.GLASS).hardnessAndResistance(0.3F).sound(SoundType.GLASS).notSolid()));
-	public static final RegistryObject<Block> DARK_OAK_WINDOW = BLOCKS
-			.register("dark_oak_window",
-					() -> new GlassBlock(AbstractBlock.Properties.create(Material.GLASS).hardnessAndResistance(0.3F).sound(SoundType.GLASS).notSolid()));
-	
-	public static final RegistryObject<Block> OAK_WINDOW_PANE = BLOCKS
-			.register("oak_window_pane",
-					() -> new  PaneBlock(AbstractBlock.Properties.create(Material.GLASS).hardnessAndResistance(0.3F).sound(SoundType.GLASS).notSolid()));
-	public static final RegistryObject<Block> SPRUCE_WINDOW_PANE = BLOCKS
-			.register("spruce_window_pane",
-					() -> new  PaneBlock(AbstractBlock.Properties.create(Material.GLASS).hardnessAndResistance(0.3F).sound(SoundType.GLASS).notSolid()));
-	public static final RegistryObject<Block> BIRCH_WINDOW_PANE = BLOCKS
-			.register("birch_window_pane",
-					() -> new  PaneBlock(AbstractBlock.Properties.create(Material.GLASS).hardnessAndResistance(0.3F).sound(SoundType.GLASS).notSolid()));
-	public static final RegistryObject<Block> JUNGLE_WINDOW_PANE = BLOCKS
-			.register("jungle_window_pane",
-					() -> new  PaneBlock(AbstractBlock.Properties.create(Material.GLASS).hardnessAndResistance(0.3F).sound(SoundType.GLASS).notSolid()));
-	public static final RegistryObject<Block> ACACIA_WINDOW_PANE = BLOCKS
-			.register("acacia_window_pane",
-					() -> new  PaneBlock(AbstractBlock.Properties.create(Material.GLASS).hardnessAndResistance(0.3F).sound(SoundType.GLASS).notSolid()));
-	public static final RegistryObject<Block> DARK_OAK_WINDOW_PANE = BLOCKS
-			.register("dark_oak_window_pane",
-					() -> new  PaneBlock(AbstractBlock.Properties.create(Material.GLASS).hardnessAndResistance(0.3F).sound(SoundType.GLASS).notSolid()));
 
 }
