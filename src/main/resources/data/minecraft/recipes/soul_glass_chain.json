@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "glasscraftery:soul_glass"
+    }
+  },
+  "result": {
+    "item": "glasscraftery:soul_glass_chain"
+  }
+}

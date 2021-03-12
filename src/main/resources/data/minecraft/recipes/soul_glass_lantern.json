@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+    "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "glasscraftery:soul_glass"
+    },
+    "X": {
+      "item": "minecraft:soul_torch"
+    }
+  },
+  "result": {
+    "item": "glasscraftery:soul_glass_lantern",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+    "pattern": [
+    "#X#",
+    "XXX",
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "item": "glasscraftery:soul_glass"
+    },
+    "X": {
+      "item": "minecraft:crimson_planks"
+    }
+  },
+  "result": {
+    "item": "glasscraftery:crimson_window",
+    "count": 4
+  }
+}
