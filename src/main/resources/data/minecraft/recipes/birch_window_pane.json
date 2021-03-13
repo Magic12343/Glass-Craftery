@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "glasscraftery:birch_window"
+    }
+  },
+  "result": {
+    "item": "glasscraftery:birch_window_pane",
+    "count": 16
+  }
+}

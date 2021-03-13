@@ -34,6 +34,8 @@ public class ClientEventBusSubscriber {
 		RenderTypeLookup.setRenderLayer(BlockInit.JUNGLE_WINDOW.get(), RenderType.getCutoutMipped());
 		RenderTypeLookup.setRenderLayer(BlockInit.ACACIA_WINDOW.get(), RenderType.getCutoutMipped());
 		RenderTypeLookup.setRenderLayer(BlockInit.DARK_OAK_WINDOW.get(), RenderType.getCutoutMipped());
+		RenderTypeLookup.setRenderLayer(BlockInit.CRIMSON_WINDOW.get(), RenderType.getTranslucent());
+		RenderTypeLookup.setRenderLayer(BlockInit.WARPED_WINDOW.get(), RenderType.getTranslucent());
 		
 		RenderTypeLookup.setRenderLayer(BlockInit.OAK_WINDOW_PANE.get(), RenderType.getCutoutMipped());
 		RenderTypeLookup.setRenderLayer(BlockInit.SPRUCE_WINDOW_PANE.get(), RenderType.getCutoutMipped());
@@ -41,6 +43,8 @@ public class ClientEventBusSubscriber {
 		RenderTypeLookup.setRenderLayer(BlockInit.JUNGLE_WINDOW_PANE.get(), RenderType.getCutoutMipped());
 		RenderTypeLookup.setRenderLayer(BlockInit.ACACIA_WINDOW_PANE.get(), RenderType.getCutoutMipped());
 		RenderTypeLookup.setRenderLayer(BlockInit.DARK_OAK_WINDOW_PANE.get(), RenderType.getCutoutMipped());
+		RenderTypeLookup.setRenderLayer(BlockInit.CRIMSON_WINDOW_PANE.get(), RenderType.getTranslucent());
+		RenderTypeLookup.setRenderLayer(BlockInit.WARPED_WINDOW_PANE.get(), RenderType.getTranslucent());
 ;
 		
 	}

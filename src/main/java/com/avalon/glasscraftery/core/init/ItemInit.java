@@ -63,6 +63,12 @@ public class ItemInit {
 	public static final RegistryObject<BlockItem> DARK_OAK_WINDOW = ITEMS.register("dark_oak_window",
 			() -> new BlockItem(BlockInit.DARK_OAK_WINDOW.get(),
 					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<BlockItem> CRIMSON_WINDOW = ITEMS.register("crimson_window",
+			() -> new BlockItem(BlockInit.CRIMSON_WINDOW.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<BlockItem> WARPED_WINDOW = ITEMS.register("warped_window",
+			() -> new BlockItem(BlockInit.WARPED_WINDOW.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
 	
 	public static final RegistryObject<BlockItem> OAK_WINDOW_PANE = ITEMS.register("oak_window_pane",
 			() -> new BlockItem(BlockInit.OAK_WINDOW_PANE.get(),
@@ -81,6 +87,12 @@ public class ItemInit {
 					new Item.Properties().group(ItemGroup.DECORATIONS)));
 	public static final RegistryObject<BlockItem> DARK_OAK_WINDOW_PANE = ITEMS.register("dark_oak_window_pane",
 			() -> new BlockItem(BlockInit.DARK_OAK_WINDOW_PANE.get(),
+					new Item.Properties().group(ItemGroup.DECORATIONS)));
+	public static final RegistryObject<BlockItem> CRIMSON_WINDOW_PANE = ITEMS.register("crimson_window_pane",
+			() -> new BlockItem(BlockInit.CRIMSON_WINDOW_PANE.get(),
+					new Item.Properties().group(ItemGroup.DECORATIONS)));
+	public static final RegistryObject<BlockItem> WARPED_WINDOW_PANE = ITEMS.register("warped_window_pane",
+			() -> new BlockItem(BlockInit.WARPED_WINDOW_PANE.get(),
 					new Item.Properties().group(ItemGroup.DECORATIONS)));
 
 

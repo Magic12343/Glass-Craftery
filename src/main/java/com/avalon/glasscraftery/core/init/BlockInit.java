@@ -70,6 +70,14 @@ public class BlockInit {
 	public static final RegistryObject<Block> DARK_OAK_WINDOW = BLOCKS
 			.register("dark_oak_window",
 					() -> new GlassBlock(AbstractBlock.Properties.create(Material.GLASS).hardnessAndResistance(0.3F).sound(SoundType.GLASS).notSolid()));
+	public static final RegistryObject<Block> CRIMSON_WINDOW = BLOCKS
+			.register("crimson_window",
+					() -> new GlassBlock(AbstractBlock.Properties.create(Material.GLASS).hardnessAndResistance(0.3F).sound(SoundType.GLASS).notSolid()));
+	public static final RegistryObject<Block> WARPED_WINDOW = BLOCKS
+			.register("warped_window",
+					() -> new GlassBlock(AbstractBlock.Properties.create(Material.GLASS).hardnessAndResistance(0.3F).sound(SoundType.GLASS).notSolid()));
+	
+	
 	
 	public static final RegistryObject<Block> OAK_WINDOW_PANE = BLOCKS
 			.register("oak_window_pane",
@@ -88,6 +96,12 @@ public class BlockInit {
 					() -> new  PaneBlock(AbstractBlock.Properties.create(Material.GLASS).hardnessAndResistance(0.3F).sound(SoundType.GLASS).notSolid()));
 	public static final RegistryObject<Block> DARK_OAK_WINDOW_PANE = BLOCKS
 			.register("dark_oak_window_pane",
+					() -> new  PaneBlock(AbstractBlock.Properties.create(Material.GLASS).hardnessAndResistance(0.3F).sound(SoundType.GLASS).notSolid()));
+	public static final RegistryObject<Block> CRIMSON_WINDOW_PANE = BLOCKS
+			.register("crimson_window_pane",
+					() -> new  PaneBlock(AbstractBlock.Properties.create(Material.GLASS).hardnessAndResistance(0.3F).sound(SoundType.GLASS).notSolid()));
+	public static final RegistryObject<Block> WARPED_WINDOW_PANE = BLOCKS
+			.register("warped_window_pane",
 					() -> new  PaneBlock(AbstractBlock.Properties.create(Material.GLASS).hardnessAndResistance(0.3F).sound(SoundType.GLASS).notSolid()));
 
 }

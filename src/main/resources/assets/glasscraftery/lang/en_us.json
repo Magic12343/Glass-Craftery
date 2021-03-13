@@ -16,12 +16,16 @@
   "block.glasscraftery.jungle_window": "Jungle Window",
   "block.glasscraftery.acacia_window": "Acacia Window",
   "block.glasscraftery.dark_oak_window": "Dark Oak Window",
+  "block.glasscraftery.crimson_window": "Crimson Window",
+  "block.glasscraftery.warped_window": "Warped Window",
   
   "block.glasscraftery.oak_window_pane": "Oak Window Pane",
   "block.glasscraftery.spruce_window_pane": "Spruce Window Pane",
   "block.glasscraftery.birch_window_pane": "Birch Window Pane",
   "block.glasscraftery.jungle_window_pane": "Jungle Window Pane",
   "block.glasscraftery.acacia_window_pane": "Acacia Window Pane",
-  "block.glasscraftery.dark_oak_window_pane": "Dark Oak Window Pane"
+  "block.glasscraftery.dark_oak_window_pane": "Dark Oak Window Pane", 
+  "block.glasscraftery.crimson_window_pane": "Crimson Window Pane",
+  "block.glasscraftery.warped_window_pane": "Warped Window Pane"
 
 }

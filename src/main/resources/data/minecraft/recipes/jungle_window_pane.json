@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "glasscraftery:jungle_window"
+    }
+  },
+  "result": {
+    "item": "glasscraftery:jungle_window_pane",
+    "count": 16
+  }
+}
