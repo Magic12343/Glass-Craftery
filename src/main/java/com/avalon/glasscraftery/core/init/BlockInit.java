@@ -103,5 +103,6 @@ public class BlockInit {
 	public static final RegistryObject<Block> WARPED_WINDOW_PANE = BLOCKS
 			.register("warped_window_pane",
 					() -> new  PaneBlock(AbstractBlock.Properties.create(Material.GLASS).hardnessAndResistance(0.3F).sound(SoundType.GLASS).notSolid()));
+	
 
 }
