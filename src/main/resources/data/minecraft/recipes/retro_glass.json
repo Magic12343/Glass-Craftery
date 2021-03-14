@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "minecraft:glass"
+    "item": "minecraft:gravel"
   },
   "result": "glasscraftery:retro_glass",
   "experience": 0.1,
