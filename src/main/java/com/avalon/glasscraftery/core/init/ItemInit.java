@@ -94,6 +94,56 @@ public class ItemInit {
 	public static final RegistryObject<BlockItem> WARPED_WINDOW_PANE = ITEMS.register("warped_window_pane",
 			() -> new BlockItem(BlockInit.WARPED_WINDOW_PANE.get(),
 					new Item.Properties().group(ItemGroup.DECORATIONS)));
+	
+	public static final RegistryObject<BlockItem> GLASSY_OAK_DOOR = ITEMS.register("glassy_oak_door",
+			() -> new BlockItem(BlockInit.GLASSY_OAK_DOOR.get(),
+					new Item.Properties().group(ItemGroup.REDSTONE)));
+	public static final RegistryObject<BlockItem> GLASSY_SPRUCE_DOOR = ITEMS.register("glassy_spruce_door",
+			() -> new BlockItem(BlockInit.GLASSY_SPRUCE_DOOR.get(),
+					new Item.Properties().group(ItemGroup.REDSTONE)));
+	public static final RegistryObject<BlockItem> GLASSY_BIRCH_DOOR = ITEMS.register("glassy_birch_door",
+			() -> new BlockItem(BlockInit.GLASSY_BIRCH_DOOR.get(),
+					new Item.Properties().group(ItemGroup.REDSTONE)));
+	public static final RegistryObject<BlockItem> GLASSY_JUNGLE_DOOR = ITEMS.register("glassy_jungle_door",
+			() -> new BlockItem(BlockInit.GLASSY_JUNGLE_DOOR.get(),
+					new Item.Properties().group(ItemGroup.REDSTONE)));
+	public static final RegistryObject<BlockItem> GLASSY_ACACIA_DOOR = ITEMS.register("glassy_acacia_door",
+			() -> new BlockItem(BlockInit.GLASSY_ACACIA_DOOR.get(),
+					new Item.Properties().group(ItemGroup.REDSTONE)));
+	public static final RegistryObject<BlockItem> GLASSY_DARK_OAK_DOOR = ITEMS.register("glassy_dark_oak_door",
+			() -> new BlockItem(BlockInit.GLASSY_DARK_OAK_DOOR.get(),
+					new Item.Properties().group(ItemGroup.REDSTONE)));
+	public static final RegistryObject<BlockItem> GLASSY_CRIMSON_DOOR = ITEMS.register("glassy_crimson_door",
+			() -> new BlockItem(BlockInit.GLASSY_CRIMSON_DOOR.get(),
+					new Item.Properties().group(ItemGroup.REDSTONE)));
+	public static final RegistryObject<BlockItem> GLASSY_WARPED_DOOR = ITEMS.register("glassy_warped_door",
+			() -> new BlockItem(BlockInit.GLASSY_WARPED_DOOR.get(),
+					new Item.Properties().group(ItemGroup.REDSTONE)));
+	
+	public static final RegistryObject<BlockItem> GLASSY_OAK_TRAPDOOR = ITEMS.register("glassy_oak_trapdoor",
+			() -> new BlockItem(BlockInit.GLASSY_OAK_TRAPDOOR.get(),
+					new Item.Properties().group(ItemGroup.REDSTONE)));
+	public static final RegistryObject<BlockItem> GLASSY_SPRUCE_TRAPDOOR = ITEMS.register("glassy_spruce_trapdoor",
+			() -> new BlockItem(BlockInit.GLASSY_SPRUCE_TRAPDOOR.get(),
+					new Item.Properties().group(ItemGroup.REDSTONE)));
+	public static final RegistryObject<BlockItem> GLASSY_BIRCH_TRAPDOOR = ITEMS.register("glassy_birch_trapdoor",
+			() -> new BlockItem(BlockInit.GLASSY_BIRCH_TRAPDOOR.get(),
+					new Item.Properties().group(ItemGroup.REDSTONE)));
+	public static final RegistryObject<BlockItem> GLASSY_JUNGLE_TRAPDOOR = ITEMS.register("glassy_jungle_trapdoor",
+			() -> new BlockItem(BlockInit.GLASSY_JUNGLE_TRAPDOOR.get(),
+					new Item.Properties().group(ItemGroup.REDSTONE)));
+	public static final RegistryObject<BlockItem> GLASSY_ACACIA_TRAPDOOR = ITEMS.register("glassy_acacia_trapdoor",
+			() -> new BlockItem(BlockInit.GLASSY_ACACIA_TRAPDOOR.get(),
+					new Item.Properties().group(ItemGroup.REDSTONE)));
+	public static final RegistryObject<BlockItem> GLASSY_DARK_OAK_TRAPDOOR = ITEMS.register("glassy_dark_oak_trapdoor",
+			() -> new BlockItem(BlockInit.GLASSY_DARK_OAK_TRAPDOOR.get(),
+					new Item.Properties().group(ItemGroup.REDSTONE)));
+	public static final RegistryObject<BlockItem> GLASSY_CRIMSON_TRAPDOOR = ITEMS.register("glassy_crimson_trapdoor",
+			() -> new BlockItem(BlockInit.GLASSY_CRIMSON_TRAPDOOR.get(),
+					new Item.Properties().group(ItemGroup.REDSTONE)));
+	public static final RegistryObject<BlockItem> GLASSY_WARPED_TRAPDOOR = ITEMS.register("glassy_warped_trapdoor",
+			() -> new BlockItem(BlockInit.GLASSY_WARPED_TRAPDOOR.get(),
+					new Item.Properties().group(ItemGroup.REDSTONE)));
 
 
 }

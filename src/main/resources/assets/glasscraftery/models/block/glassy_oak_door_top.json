@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top",
+  "textures": {
+    "top": "glasscraftery:blocks/glassy_oak_door_top",
+    "bottom": "glasscraftery:blocks/glassy_oak_door_bottom"
+  }
+}

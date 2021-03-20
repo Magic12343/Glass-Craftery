@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_rh",
+  "textures": {
+    "top": "glasscraftery:blocks/glassy_birch_door_top",
+    "bottom": "glasscraftery:blocks/glassy_birch_door_bottom"
+  }
+}

@@ -45,6 +45,24 @@ public class ClientEventBusSubscriber {
 		RenderTypeLookup.setRenderLayer(BlockInit.DARK_OAK_WINDOW_PANE.get(), RenderType.getCutoutMipped());
 		RenderTypeLookup.setRenderLayer(BlockInit.CRIMSON_WINDOW_PANE.get(), RenderType.getTranslucent());
 		RenderTypeLookup.setRenderLayer(BlockInit.WARPED_WINDOW_PANE.get(), RenderType.getTranslucent());
+		
+		RenderTypeLookup.setRenderLayer(BlockInit.GLASSY_OAK_DOOR.get(), RenderType.getCutoutMipped());
+		RenderTypeLookup.setRenderLayer(BlockInit.GLASSY_SPRUCE_DOOR.get(), RenderType.getCutoutMipped());
+		RenderTypeLookup.setRenderLayer(BlockInit.GLASSY_BIRCH_DOOR.get(), RenderType.getCutoutMipped());
+		RenderTypeLookup.setRenderLayer(BlockInit.GLASSY_JUNGLE_DOOR.get(), RenderType.getCutoutMipped());
+		RenderTypeLookup.setRenderLayer(BlockInit.GLASSY_ACACIA_DOOR.get(), RenderType.getCutoutMipped());
+		RenderTypeLookup.setRenderLayer(BlockInit.GLASSY_DARK_OAK_DOOR.get(), RenderType.getCutoutMipped());
+		RenderTypeLookup.setRenderLayer(BlockInit.GLASSY_CRIMSON_DOOR.get(), RenderType.getTranslucent());
+		RenderTypeLookup.setRenderLayer(BlockInit.GLASSY_WARPED_DOOR.get(), RenderType.getTranslucent());
+		
+		RenderTypeLookup.setRenderLayer(BlockInit.GLASSY_OAK_TRAPDOOR.get(), RenderType.getCutoutMipped());
+		RenderTypeLookup.setRenderLayer(BlockInit.GLASSY_SPRUCE_TRAPDOOR.get(), RenderType.getCutoutMipped());
+		RenderTypeLookup.setRenderLayer(BlockInit.GLASSY_BIRCH_TRAPDOOR.get(), RenderType.getCutoutMipped());
+		RenderTypeLookup.setRenderLayer(BlockInit.GLASSY_JUNGLE_TRAPDOOR.get(), RenderType.getCutoutMipped());
+		RenderTypeLookup.setRenderLayer(BlockInit.GLASSY_ACACIA_TRAPDOOR.get(), RenderType.getCutoutMipped());
+		RenderTypeLookup.setRenderLayer(BlockInit.GLASSY_DARK_OAK_TRAPDOOR.get(), RenderType.getCutoutMipped());
+		RenderTypeLookup.setRenderLayer(BlockInit.GLASSY_CRIMSON_TRAPDOOR.get(), RenderType.getTranslucent());
+		RenderTypeLookup.setRenderLayer(BlockInit.GLASSY_WARPED_TRAPDOOR.get(), RenderType.getTranslucent());
 ;
 		
 	}
