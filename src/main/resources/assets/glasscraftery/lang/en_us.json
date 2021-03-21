@@ -26,6 +26,24 @@
   "block.glasscraftery.acacia_window_pane": "Acacia Window Pane",
   "block.glasscraftery.dark_oak_window_pane": "Dark Oak Window Pane", 
   "block.glasscraftery.crimson_window_pane": "Crimson Window Pane",
-  "block.glasscraftery.warped_window_pane": "Warped Window Pane"
+  "block.glasscraftery.warped_window_pane": "Warped Window Pane",
+  
+  "block.glasscraftery.glassy_oak_door": "Glassy Oak Door",
+  "block.glasscraftery.glassy_spruce_door": "Glassy Spruce Door",
+  "block.glasscraftery.glassy_birch_door": "Glassy Birch Door",
+  "block.glasscraftery.glassy_jungle_door": "Glassy Jungle Door",
+  "block.glasscraftery.glassy_acacia_door": "Glassy Acacia Door",
+  "block.glasscraftery.glassy_dark_oak_door": "Glassy Dark Oak Door",
+  "block.glasscraftery.glassy_crimson_door": "Glassy Crimson Door",
+  "block.glasscraftery.glassy_warped_door": "Glassy Warped Door",
+  
+  "block.glasscraftery.glassy_oak_trapdoor": "Glassy Oak Trapdoor",
+  "block.glasscraftery.glassy_spruce_trapdoor": "Glassy Spruce Trapdoor",
+  "block.glasscraftery.glassy_birch_trapdoor": "Glassy Birch Trapdoor",
+  "block.glasscraftery.glassy_jungle_trapdoor": "Glassy Jungle Trapdoor",
+  "block.glasscraftery.glassy_acacia_trapdoor": "Glassy Acacia Trapdoor",
+  "block.glasscraftery.glassy_dark_oak_trapdoor": "Glassy Dark Oak Trapdoor",
+  "block.glasscraftery.glassy_crimson_trapdoor": "Glassy Crimson Trapdoor",
+  "block.glasscraftery.glassy_warped_trapdoor": "Glassy Warped Trapdoor"
 
 }
