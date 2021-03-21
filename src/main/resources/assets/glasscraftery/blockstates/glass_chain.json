@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
+    "axis=x": {
+      "model": "glasscraftery:block/glass_chain",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
       "model": "glasscraftery:block/glass_chain"
+    },
+    "axis=z": {
+      "model": "glasscraftery:block/glass_chain",
+      "x": 90
     }
   }
 }
