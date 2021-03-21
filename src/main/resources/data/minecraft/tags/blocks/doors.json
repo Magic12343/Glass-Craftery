@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "glasscraftery:glassy_oak_door",
+	"glasscraftery:glassy_spruce_door",
+	"glasscraftery:glassy_birch_door",
+	"glasscraftery:glassy_jungle_door",
+	"glasscraftery:glassy_acacia_door",
+	"glasscraftery:glassy_dark_oak_door",
+	"glasscraftery:glassy_crimson_door",
+	"glasscraftery:glassy_warped_door"
+	
+  ]
+}

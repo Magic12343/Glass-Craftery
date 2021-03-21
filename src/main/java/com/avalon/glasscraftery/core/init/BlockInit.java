@@ -110,38 +110,38 @@ public class BlockInit {
 	
 	//Doors
 	public static final RegistryObject<Block> GLASSY_OAK_DOOR = BLOCKS.register("glassy_oak_door", 
-			() -> new DoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD)));
+			() -> new DoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD).notSolid()));
 	public static final RegistryObject<Block> GLASSY_BIRCH_DOOR = BLOCKS.register("glassy_birch_door", 
-			() -> new DoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD)));
+			() -> new DoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD).notSolid()));
 	public static final RegistryObject<Block> GLASSY_SPRUCE_DOOR = BLOCKS.register("glassy_spruce_door", 
-			() -> new DoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD)));
+			() -> new DoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD).notSolid()));
 	public static final RegistryObject<Block> GLASSY_JUNGLE_DOOR = BLOCKS.register("glassy_jungle_door", 
-			() -> new DoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD)));
+			() -> new DoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD).notSolid()));
 	public static final RegistryObject<Block> GLASSY_ACACIA_DOOR = BLOCKS.register("glassy_acacia_door", 
-			() -> new DoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD)));
+			() -> new DoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD).notSolid()));
 	public static final RegistryObject<Block> GLASSY_DARK_OAK_DOOR = BLOCKS.register("glassy_dark_oak_door", 
-			() -> new DoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD)));
+			() -> new DoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD).notSolid()));
 	public static final RegistryObject<Block> GLASSY_CRIMSON_DOOR = BLOCKS.register("glassy_crimson_door", 
-			() -> new DoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD)));
+			() -> new DoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD).notSolid()));
 	public static final RegistryObject<Block> GLASSY_WARPED_DOOR = BLOCKS.register("glassy_warped_door", 
-			() -> new DoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD)));
+			() -> new DoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD).notSolid()));
 	
 	//Trapdoors
 	public static final RegistryObject<Block> GLASSY_OAK_TRAPDOOR = BLOCKS.register("glassy_oak_trapdoor", 
-			() -> new TrapDoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD)));
+			() -> new TrapDoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD).notSolid()));
 	public static final RegistryObject<Block> GLASSY_BIRCH_TRAPDOOR = BLOCKS.register("glassy_birch_trapdoor", 
-			() -> new TrapDoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD)));
+			() -> new TrapDoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD).notSolid()));
 	public static final RegistryObject<Block> GLASSY_SPRUCE_TRAPDOOR = BLOCKS.register("glassy_spruce_trapdoor", 
-			() -> new TrapDoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD)));
+			() -> new TrapDoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD).notSolid()));
 	public static final RegistryObject<Block> GLASSY_JUNGLE_TRAPDOOR = BLOCKS.register("glassy_jungle_trapdoor", 
-			() -> new TrapDoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD)));
+			() -> new TrapDoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD).notSolid()));
 	public static final RegistryObject<Block> GLASSY_ACACIA_TRAPDOOR = BLOCKS.register("glassy_acacia_trapdoor", 
-			() -> new TrapDoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD)));
+			() -> new TrapDoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD).notSolid()));
 	public static final RegistryObject<Block> GLASSY_DARK_OAK_TRAPDOOR = BLOCKS.register("glassy_dark_oak_trapdoor", 
-			() -> new TrapDoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD)));
+			() -> new TrapDoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD).notSolid()));
 	public static final RegistryObject<Block> GLASSY_CRIMSON_TRAPDOOR = BLOCKS.register("glassy_crimson_trapdoor", 
-			() -> new TrapDoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD)));
+			() -> new TrapDoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD).notSolid()));
 	public static final RegistryObject<Block> GLASSY_WARPED_TRAPDOOR = BLOCKS.register("glassy_warped_trapdoor", 
-			() -> new TrapDoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD)));
+			() -> new TrapDoorBlock(Block.Properties.from(Blocks.OAK_PLANKS).harvestLevel(0).harvestTool(ToolType.AXE).hardnessAndResistance(3.0f, 2.0f).sound(SoundType.WOOD).notSolid()));
 
 }
